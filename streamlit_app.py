@@ -37,7 +37,7 @@ st.dataframe(fruityvice_normalized)
 
 
 # don't run after this
-st.stop
+st.stop()
 
 
 my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
